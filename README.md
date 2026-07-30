@@ -1,93 +1,178 @@
+## EXPERIMENT NO. 1
 
+### Name: JANARTHANAN B
+### Reg. No: 212223100014
 
+## Title
+Cloud Account Setup and Services Overview in Amazon Web Services (AWS)
+## Aim
+To create an Amazon Web Services (AWS) account and explore the AWS Management Console and its major cloud services.
+## Objective
+After completing this experiment, students should be able to:
+- Understand AWS Cloud.
+- Create an AWS account.
+- Sign in to the AWS Management Console.
+- Identify major AWS services.
+- Navigate through the AWS Dashboard. 
+## Introduction (Theory)
+Amazon Web Services (AWS) is the world's leading cloud computing platform developed by Amazon. Instead of purchasing expensive servers, organizations can rent computing resources over the internet.
+AWS provides more than 200 cloud services, including:
+- Computing
+- Storage
+- Databases
+- Networking
+- Artificial Intelligence
+- Machine Learning
+- Security
+- Analytics 
+These services follow a pay-as-you-go pricing model.
+## Advantages
+-	No hardware purchase
+-	Highly scalable
+-	Secure
+-	Reliable
+-	Global availability
+-	Cost effective 
+## Software Requirements
+-	Windows 10/11
+-	Google Chrome or Microsoft Edge
+-	Internet Connection
+-	Email ID
+-	Mobile Number
+-	Debit/Credit Card (required for AWS account verification, even for Free Tier) 
+## Procedure
+- Step 1
+Open your browser.
+Go to
+https://aws.amazon.com
+- Step 2 
+Click
+Create an AWS Account
+- Step 3
+Enter
+•	Email Address 
+•	Password 
+•	AWS Account Name 
+Click Continue
+- Step 4
+Choose
+Personal Account
+(Students can also use Business Account if instructed.)
+- Step 5
+Enter
+•	Name 
+•	Address 
+•	Phone Number 
+Accept the agreement.
+- Step 6
+Enter your Debit/Credit Card details for identity verification.
+(A small temporary verification charge may be applied and later reversed.)
+- Step 7
+Verify your mobile number using the OTP.
+- Step 8
+Select
+Basic Support (Free)
+- Step 9
+Login to the AWS Console.
+You will see the AWS Management Console.
 
-# EX NO 1: Cloud-account-set-up-and-services
+<img width="1899" height="884" alt="Screenshot 2026-07-30 140909" src="https://github.com/user-attachments/assets/8d6edd27-f381-4982-be5d-702466f64b33" />
 
-### Name : JANARTHANAN B
+## AWS Console Overview
+Students should become familiar with these sections:
+## Search Bar
+Used to search AWS services quickly.
+Example:
+- EC2
+- S3
+- Lambda
+<img width="1385" height="926" alt="Screenshot 2026-07-28 090824" src="https://github.com/user-attachments/assets/37b1804f-35d9-430f-83b5-540298b646eb" />
 
-### Reg no: 212223100014
+# Services Menu:
+Contains all AWS services grouped into categories.
+<img width="1903" height="890" alt="Screenshot 2026-07-30 142012" src="https://github.com/user-attachments/assets/7202464d-2b15-419e-9ec0-51f5205e167a" />
 
-# Aim:
-To create an cloud account in AWS and to explore all of its services.
+Examples:
+Compute
+- EC2
+- Lambda
+- Elastic Beanstalk 
+Storage
+- S3
+- EBS
+- EFS 
+Database
+- RDS
+- DynamoDB 
+Networking
+- VPC
+- Route 53 
+Security
+- IAM
+- KMS 
+Analytics
+- Athena
+- EMR 
+Machine Learning
+- SageMaker 
 
-# Procedure
-# Step 1: Go to the AWS Website
-• Visit https://aws.amazon.com
+## Region Selection
+<img width="1907" height="900" alt="Screenshot 2026-07-30 142133" src="https://github.com/user-attachments/assets/9e4f0e07-b8d8-4bc8-ac32-4327a80bda1a" />
 
-• Click “Create an AWS Account” in the top right corner.
+Example:
+Mumbai
+Singapore
+US East (N. Virginia)
+Students should understand that resources are created within a selected AWS Region.
 
-# Step 2: Enter Account Information
-• Email address – Use a valid email you have access to.
+## Billing Dashboard
+<img width="1902" height="899" alt="Screenshot 2026-07-30 142256" src="https://github.com/user-attachments/assets/4669bb28-4f5f-487d-b005-d99821e691d6" />
 
-• Password – Create a strong password.
+Displays:
+•	Usage 
+•	Estimated Cost 
+•	Free Tier Usage 
 
-• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
+## Account Settings
+<img width="1904" height="757" alt="Screenshot 2026-07-30 142409" src="https://github.com/user-attachments/assets/50ed297d-5f27-4710-beab-962a9247aec9" />
 
-# Step 3: Choose Account Type
-• Personal or Professional – Select based on how you plan to use AWS.
+## Contains
+•	Profile 
+•	Security Credentials 
+•	MFA 
+•	Password Settings 
 
-• Fill in your contact information (name, address, phone number).
+## Services to Explore
+Students should open each service briefly.
+EC2
+Virtual servers in the cloud.
+S3
+Cloud object storage.
+IAM
+User and permission management.
 
-# Step 4: Enter Payment Information
-• Provide credit/debit card details.
+VPC
+Virtual private network for AWS resources.
 
-Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
+RDS
+Managed relational database service.
 
-# Step 5: Verify Your Identity
-• Enter your phone number.
+Lambda
+Run code without managing servers.
 
-• AWS will send a verification code via call or text.
+CloudWatch
+Monitoring and logging service.
 
-• Enter the code to confirm your identity.
+SNS
+Notification service.
 
-# Step 6: Choose a Support Plan
-Choose one of the following:
-• Basic Support (Free)
+## Expected Output
+Students should successfully:
+•	Create an AWS account. 
+•	Log in to the AWS Management Console. 
+•	Locate major AWS services. 
+•	Understand the purpose of common cloud services. 
 
-• Developer Support
-
-• Business Support
-
-• Enterprise Support
-
-For most beginners, select Basic Support.
-
-# Step 7: Complete the Sign-Up
-• After reviewing all the details, click "Sign Up".
-
-• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
-
-# Step 8: Sign In to AWS Console
-• Go to https://console.aws.amazon.com
-
-• Log in using your email and password to start using AWS services.
-
-
-# Create a user with administrative access
-After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
-
-
-# Secure your AWS account root user
-Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password.
-Turn on multi-factor authentication (MFA) for your root user.
-
-# Create user with administrative access
-Enable IAM Identity Center.
-In IAM Identity Center, grant administrative access to a user.
-
-# Sign in as the user with administrative access
-To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
-
-
-# Services Overview:
-• Explore all the available services in AWS platform.
-# Output:
-![cc ss 1](https://github.com/user-attachments/assets/7eb75fde-d488-445f-bd49-1580f82418e8)
-
-![cc ss 2](https://github.com/user-attachments/assets/20513c51-e790-4037-b6c3-e2803e77d28c)
-
-
-# Result:
-Thus an account was created in AWS platform and all the services were explored.
-
+## Result
+Thus, the AWS account was created successfully, and the AWS Management Console and major cloud services were explored
 
